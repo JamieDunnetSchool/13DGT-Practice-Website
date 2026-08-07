@@ -14,7 +14,8 @@ body {
 /* 2. Configure the header grid item and photo background */
 .grid-header {
     grid-column: 1 / -1; 
-    min-height: 250px;   
+    width: 100vw;
+    height: 100vh; 
     
     /* NEW: Turn header into a single-cell grid to stack children */
     display: grid;
@@ -38,7 +39,7 @@ body {
     /* Example layout for the nav items */
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent bar */
 }
@@ -58,7 +59,7 @@ body {
     
     color: #ffffff;
     font-size: 2.5rem;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
+    text-shadow: 2% 2% 0% rgba(0, 0, 0, 0.7);
     margin: 0;
     z-index: 1;
 }
@@ -66,7 +67,7 @@ body {
 /* Sample content styling */
 .grid-item {
     background-color: #f0f0f0;
-    padding: 30px;
+    padding: 30%;
     text-align: center;
-    border: 1px solid #000000;
+    border: 1% solid #000000;
 }
